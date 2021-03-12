@@ -542,25 +542,4 @@ BeltPoly=[[[ 1.000,-0.100 ],[ 1.000, 0.000 ],[ 0.977, 0.000 ],[ 0.847, 0.049 ],[
           [[-1.000,-0.100 ],[-1.000, 0.000 ],[-0.500, 0.000 ],[-0.500, 1.000 ],[ 0.000, 1.000 ],[ 0.500, 1.000 ],[ 0.500, 0.000 ],[ 1.000, 0.000 ],[ 1.000,-0.100 ]]                               
          ];
 
-
-
-/*=================================================================*/
-/*================ Functions to use the database ==================*/
-/*=================================================================*/
-// GetDataTable: search in database table, returns array
-function GetDataTable(key,table)=
- let(s=[key])
- let(x=search(s,table))
- table[x[0]];
-// GetDataValue: search in database table, returns specific value
-function GetDataValue(key,table,value)=
- let(s=[key])
- let(x=search(s,table))
- let(kv=table[x[0]])
- kv[value];
-/*=================================================================*/
-/*================ Functions to use the database ==================*/
-/*=================================================================*/
-
-
-echo("*** Hardware database loaded.");
+echo("*** _hardware database loaded.");
