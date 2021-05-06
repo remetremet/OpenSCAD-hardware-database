@@ -1,4 +1,4 @@
-# OpenSCAD-hardware-database
+# OpenSCAD hardware database
 
 ISO/EN/DIN precise database for OpenSCAD
 
@@ -23,8 +23,11 @@ Future / TODO
  - make central settings of tolerances
  - prepare library to draw hardware objects (for printing) and to draw space (for placing this hardware).
 
-Use it if you like it
+
+---
 
 ![license-image](https://img.shields.io/github/license/remetremet/OpenSCAD-hardware-database?style=plastic)
 ![last-commit-image](https://img.shields.io/github/last-commit/remetremet/OpenSCAD-hardware-database?style=plastic)
 ![repo-size-image](https://img.shields.io/github/repo-size/remetremet/OpenSCAD-hardware-database?style=plastic)
+
+Use it if you like it
